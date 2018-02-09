@@ -1,14 +1,17 @@
-# QGIS3
+# QGIS 3: novità e sviluppo
 
 -
 
 *Matteo Ghetta* matteo.ghetta@faunalia.eu
 
--
-
 [Faunalia](https://www.faunalia.eu) e [QGIS IT](https://www.qgis.it)
 
+FOSS4G-IT-2018 Roma, 21/02/2018
+
+---?image=assets/qgis3.png&size=contain
+
 ---
+
 
 ## Perché QGIS3
 
