@@ -45,7 +45,7 @@
 
     * chiara separazione fra la gestione dei campi e i moduli
 
-* [Ristrutturazione di QGIS serve](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74)
+* [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74)
 * [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69)
 
 ---
@@ -68,7 +68,7 @@
   * aprire >1 progetto simultaneamente
   * migliore gestione dei layers embedded
 
-* Finire/continuare *Porting* algoritmi Processing in `C++`
+* Continuare *Porting* algoritmi Processing in `C++`
 * [Miglioramento supporto 3D](https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/)
 
     * supporto mappe 3D in layout di stampa
@@ -147,8 +147,8 @@
 
     * gestione più furba della visibilità dei layers nei gruppi
     * nascondi i layer deselezionati
-    * `refresh automatico della mappa <https://www.youtube.com/watch?v=TQTfpiyUwXk&feature=youtu.be>`_
-    * `refresh più veloce per progetti con etichette <https://github.com/qgis/QGIS/pull/4110>`_
+    * [refresh automatico della mappa](https://www.youtube.com/watch?v=TQTfpiyUwXk&feature=youtu.be)
+    * [refresh più veloce per progetti con etichette](https://github.com/qgis/QGIS/pull/4110)
     * miglioramenti nella gestione dei moduli
 
     * constraints, autocompletamento, ecc.
@@ -182,7 +182,7 @@
 
     * le API cambieranno ancora, in modo incrementale
 
-* >80 plugin disponibili (nuovi o *portati*)
+* > 80 plugin disponibili (nuovi o *portati*)
 
 ---
 
@@ -216,5 +216,3 @@ Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
    :align: center
 
 * More info: http://creativecommons.org/licenses/by-sa/3.0/
-
----
