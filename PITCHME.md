@@ -18,7 +18,7 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
     * **Qt4** -> **Qt5**
     * **python2** -> **python3**
-    
+
 * mantenimento nel tempo
 * codice più chiaro
 * nuove funzionalità
@@ -30,10 +30,10 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 ## Cosa è stato fatto (1)
 
-- Migrazione a Qt5 e Python 3 completata | 
-- Helper per la migrazione dei plugins da Python 2 a 3 | 
-- Ristrutturazione delle proprietà dei layer: codice modulare | 
-- *Task manager* per la gestione dei processi lunghi | 
+* Migrazione a Qt5 e Python 3 completata <!-- .element: class="fragment" data-fragment-index="1" -->
+* Helper per la migrazione dei plugins da Python 2 a 3 <!-- .element: class="fragment" data-fragment-index="2" -->
+* Ristrutturazione delle proprietà dei layer: codice modulare <!-- .element: class="fragment" data-fragment-index="3" -->
+* *Task manager* per la gestione dei processi lunghi <!-- .element: class="fragment" data-fragment-index="4" -->
 
 ---?image=assets/taskmanager.png&size=contain
 
@@ -55,14 +55,14 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 ## Cosa è stato fatto (2)
 
-- [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82) | 
-- [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37) | 
+- [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82) |
+- [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37) |
 
-    - chiara separazione fra la gestione dei campi e i moduli | 
+    - chiara separazione fra la gestione dei campi e i moduli |
 
-- [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74) | 
-- [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69) | 
-- [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)| 
+- [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74) |
+- [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69) |
+- [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)|
 
 ---?image=assets/multimappe.png&size=contain
 
@@ -71,8 +71,8 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 ## Cosa è stato fatto (3)
 
 - [Ristrutturazione del sistema di stampa](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/39) |
-- [Stampa di report complessi](https://north-road.com/qgis-layout-and-reporting-engine-campaign/) | 
-- [Miglioramenti alla gestione dei metadati](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/50)| 
+- [Stampa di report complessi](https://north-road.com/qgis-layout-and-reporting-engine-campaign/) |
+- [Miglioramenti alla gestione dei metadati](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/50)|
 - [Sistema di help unificato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/51) |
 - [Documentazione algoritmi Processing](http://blog.qgis.org/2017/04/30/qgis-grant-programme-2-results/) |
 - molte altri miglioramenti *nascosti*
@@ -95,7 +95,7 @@ FOSS4G-IT-2018 Roma, 21/02/2018
     - supporto mappe 3D in layout di stampa |
     - supporto per animazioni stile *telecamera* |
 
-- tante altre cose ancora... | 
+- tante altre cose ancora... |
 
 ---
 
@@ -217,7 +217,7 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 ## Si ma quando?!
 
-Presto! 
+Presto!
 
 **Rilascio imminente** 2018-02-23 durante HF Madeira
 
