@@ -1,170 +1,214 @@
-# Geographic Free Open Source Software
+# QGIS3
+
+-
+
+*Matteo Ghetta* matteo.ghetta@faunalia.eu
+
+-
+
+[Faunalia](https://www.faunalia.eu) e [QGIS IT](https://www.qgis.it)
 
 ---
 
-## Proiezioni
+## Perché QGIS3
 
-![Immagine](assets/proj.png)
+* aggiornamento librerie di base
 
----
+    * **Qt4** -> **Qt5**
+    * **python2** -> **python3**
+    
+* mantenimento nel tempo
+* codice più chiaro
+* nuove funzionalità
 
-## Proiezioni
-
-### Geoide
-
-* solido che meglio rappresenta la Terra
-* superficie equipotenziale
-* equazioni molto complesse
-
-![Immagine](assets/proj2.png) <!-- .element: class="fragment" data-fragment-index="1" style="height:30%;width:30%;"-->
-
----
-
-## Proiezioni
-
-### Ellissoide
-
-* solido che meglio **approssima** la Terra
-* equazioni note
-
-![Immagine](assets/proj3.png) <!-- .element: class="fragment" data-fragment-index="1" style="height:30%;width:30%;"-->
-
----
-
-## Proiezioni
+* pulizia codice QGIS3 stesso (*API break*)
 
 
-![Immagine](assets/proj4.png)
-
----
-
-## Proiezioni
-
-### Localizzare oggetti nello spazio
-
-![Immagine](assets/proj5.jpeg) <!-- .element: style="height:40%;width:40%;"-->
-
----
-
-## Proiezioni
-
-### Sistemi di riferimento
-
-* Modo arbitrario di localizzare oggetto
-
-![Immagine](assets/proj6.png)
-
----
-
-## Sistemi di riferimento geografici
-
-
-<ul>
-    <li class="fragment" data-fragment-index="1">uso frequente (GPS)</li>
-    <li class="fragment" data-fragment-index="2">misure come angoli rispetto a ellissoide</li>
-        <ul>
-        <li class="fragment" data-fragment-index="3">rispetto a meridiano e parallelo di riferimento</li>
-        <li class="fragment" data-fragment-index="4">Greenwich e Equatore</li>
-        </ul>
-    <li class="fragment" data-fragment-index="5">WGS84 ellissoide più comune</li>
-</ul>
+**Rilascio imminente** 2018-02-23
 
 
 ---
 
-## Sistemi di riferimento geografici
+## Cosa è stato fatto (1)
 
-![Immagine](assets/proj_geo.png)
----
+* Migrazione a Qt5 e Python 3 completata
+* Helper per la migrazione dei plugins da Python 2 a 3
+* Ristrutturazione delle proprietà dei layer: codice modulare
+* *Task manager* per la gestione dei processi lunghi
+* supporto nativo per 3D
 
-## Sistemi di riferimento geografici
-
-* distanza **angolare**
-* coordinate in gradi, primi, secondi oppure gradi decimali..
-* 42°13'56” (gradi primi secondi)
-* 43.648 (gradi decimali)
 
 ---
 
-## Sistemi di riferimento proiettati
+## Cosa è stato fatto (2)
 
-<ul>
-    <li class="fragment" data-fragment-index="1">rappresentazione Terra (3D) su piano (2D)</li>
-    <li class="fragment" data-fragment-index="2">distanze **metriche** </li>
-    <li class="fragment" data-fragment-index="3">coordinate **metriche** (N4700567, E350657)</li>
-</ul>
+* [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82)
+* [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)
+* [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37)
 
-![Immagine](assets/proj_pro.png) <!-- .element: class="fragment" data-fragment-index="4" style="height:50%;width:50%;"-->
+    * chiara separazione fra la gestione dei campi e i moduli
 
----
-
-## Sistemi di riferimento proiettati
-
-Proiezioni diverse per scopi diversi (aree, distanze...)
-
-![Immagine](assets/proj_pro2.png) <!-- .element: class="fragment" data-fragment-index="4" style="height:40%;width:40%;"-->
+* [Ristrutturazione di QGIS serve](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74)
+* [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69)
 
 ---
 
-## Sistemi di riferimento proiettati
+## Cosa è stato fatto (3)
 
-<ul>
-    <li class="fragment" data-fragment-index="1">non basta ellissoide, serve **DATUM**</li>
-        <ul>
-        <li class="fragment" data-fragment-index="2">ellissoide di riferimento</li>
-        <li class="fragment" data-fragment-index="3">tipo di proiezione</li>
-        </ul>
-    <li class="fragment" data-fragment-index="4">distorsioni minori se locale</li>
-</ul>
-
-![Immagine](assets/proj_pro3.png) <!-- .element: class="fragment" data-fragment-index="4" style="height:40%;width:40%;"-->
+* [Ristrutturazione del sistema di stampa](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/39)
+* [Sistema di help unificato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/51)
+* [Documentazione algoritmi Processing](http://blog.qgis.org/2017/04/30/qgis-grant-programme-2-results/)
+* [Stampa di report complessi](https://north-road.com/qgis-layout-and-reporting-engine-campaign/)
+* [Miglioramenti alla gestione dei metadati](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/50)
+* molte altri miglioramenti *nascosti*
 
 ---
 
-## Sistemi di riferimento proiettati WGS84 - UTM
+## Cose ancora da fare
 
-<ul>
-    <li class="fragment" data-fragment-index="1">proiezione maggiormente diffusa (scala globale)</li>
-    <li class="fragment" data-fragment-index="2">Terra divisa in **60 fusi** </li>
-    <li class="fragment" data-fragment-index="3">gradi distorsioni a latitudini elevate</li>
-</ul>
+* [Ristrutturazione del registro dei layer e della legenda](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/76)
 
-![Immagine](assets/proj_pro4.png) <!-- .element: class="fragment" data-fragment-index="4" style="height:60%;width:60%;"-->
----
+  * aprire >1 progetto simultaneamente
+  * migliore gestione dei layers embedded
 
-## True size of the Earth
+* Finire/continuare *Porting* algoritmi Processing in `C++`
+* [Miglioramento supporto 3D](https://www.lutraconsulting.co.uk/crowdfunding/more-qgis-3d/)
 
-![Immagine](assets/mercator.jpeg)
----
+    * supporto mappe 3D in layout di stampa
+    * supporto per animazioni stile *telecamera*
 
-## True size of the Earth
-
-[true size](https://thetruesize.com/#?borders=1~!MTY0MjQzNjY.NDU5OTYxOA*MzU3MDExNzI(MjE5NzI2Ng~!GL*OTYyOTE4Nw.MjkyNzU4MzY)
+* tante altre cose ancora...
 
 ---
 
-## Sistemi di riferimento proiettati in Italia
+## Chi sta pagando per tutto questo?
 
-<ul>
-    <li class="fragment" data-fragment-index="1">Gauss-Boaga (fuso est e ovest) (EPSG 3003, 3004)</li>
-    <li class="fragment" data-fragment-index="2">Cassini Soldner (EPSG 9806) </li>
-    <li class="fragment" data-fragment-index="3">UTM- WGS84 (EPSG 32632, 32633)</li>
-    <li class="fragment" data-fragment-index="4">UTM-ED50 (EPSG 23032, 23033)</li>
-    <li class="fragment" data-fragment-index="5">UTM-ETRS (EPSG 25832, 25833)</li>
-    <li class="fragment" data-fragment-index="6">WGS84 (geografico) (EPSG 4326) </li>
-</ul>
+* Sponsors e donors
+
+  * [QGIS Grants](https://www.qgis.org)
+
+* QUGs: soprattutto QGIS.CH
+* Aziende che ci tengono al futuro di [QGIS](https://www.qgis.org)
+* Lavoro volontario
 
 ---
-## Sistemi di riferimento proiettati in Italia
 
-![Immagine](assets/proj_pro5.png) <!-- .element: style="height:60%;width:60%;"-->
+## Cosa rimane da fare
+
+* Backup e versionamento dei files di progetto
+* Miglioramenti a Processing
+* Maggior numero di test
+* Documentazione completa dei cambiamenti delle API
+
+* [Una lista completa](https://github.com/qgis/QGIS-Enhancement-Proposals/issues)
+
+
 ---
 
+## Cosa c'è di nuovo per gli sviluppatori
 
-## Codici EPSG
+* Un ambiente di lavoro più confortevole
 
-* codificazione migliaia di sistemi di riferimento
-* codice univoco e universale
-* molti siti in cui trovare informazioni
+  * codice più pulito
+  * librerie più moderne
 
-![Immagine](assets/epsg.png) <!-- .element: style="height:60%;width:60%;"-->
+* Ulteriori sviluppi più facili e rapidi
+
+---
+
+## Cosa c'è di nuovo per gli utenti - 1
+
+* Nessuna rivoluzione, ma >100 novità:
+
+  * Stili
+
+    * nuove funzioni per le espressioni
+    * point cluster renderer
+    * **tutta** la stilizzazione è ora parametrizzabile con le espressioni
+    * gestione dei simboli personalizzati più facile
+    * annotazioni con stili parametrizzati
+
+---
+
+## Cosa c'è di nuovo per gli utenti - 2
+
+
+* Analisi
+
+    * riproiezione al volo sempre attiva
+    * correzione degli errori topologici durante le analisi
+    * algoritmi per il calcolo dei network
+    * vari altri algoritmi
+    * plugins (heatmap, zonal stats, ecc.) spostati in Processing
+    * miglioramenti del modeler
+
+---
+
+## Cosa c'è di nuovo per gli utenti - 3
+
+* Altro
+
+    * gestione più furba della visibilità dei layers nei gruppi
+    * nascondi i layer deselezionati
+    * `refresh automatico della mappa <https://www.youtube.com/watch?v=TQTfpiyUwXk&feature=youtu.be>`_
+    * `refresh più veloce per progetti con etichette <https://github.com/qgis/QGIS/pull/4110>`_
+    * miglioramenti nella gestione dei moduli
+
+    * constraints, autocompletamento, ecc.
+
+    * editing diretto dei raster
+
+---
+
+## Cosa c'è di nuovo per gli utenti - 4
+
+* Altro
+
+    * misurazione più precise
+
+        * scelta dell'ellissoide anche senza riproiezione
+
+    * server più veloce (multithread)
+
+* [una lista più completa](https://gist.github.com/nyalldawson/95738ec265c7f9bdb64b15672c210bb7)
+
+---
+
+## Quando aggiornare i tuoi plugins?
+
+
+* Iniziare ora
+
+    * plugin di compatibilità 2 --> 3
+
+* *freeze* fatto. lavoro può iniziare
+
+    * le API cambieranno ancora, in modo incrementale
+
+* >80 plugin disponibili (nuovi o *portati*)
+
+---
+
+## Cosa puoi fare
+
+* Testing
+* Documentazione
+* Traduzione
+* Sviluppo
+* Sostenere il lavoro degli sviluppatori
+
+---
+
+## Licenza di questa presentazione
+
+
+Creative Commons
+Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+
+.. image:: images_mg/1000px-cc-by-sa_icon-svg.png
+   :width: 200 px
+   :align: center
+
+* More info: http://creativecommons.org/licenses/by-sa/3.0/
+
+---
