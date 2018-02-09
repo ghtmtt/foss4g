@@ -1,6 +1,5 @@
 # QGIS 3: novità e sviluppo
 
--
 
 *Matteo Ghetta* matteo.ghetta@faunalia.eu
 
@@ -44,6 +43,15 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 * [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82)
 * [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)
+
+---?image=assets/multimappe.png&size=contain
+
+---
+
+## Cosa è stato fatto (2)
+
+* <span style="color:gray">[Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82)</span>
+* <span style="color:gray">[Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)</span>
 * [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37)
 
     * chiara separazione fra la gestione dei campi e i moduli
