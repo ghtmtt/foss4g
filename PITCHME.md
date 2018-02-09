@@ -33,7 +33,7 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 * Migrazione a Qt5 e Python 3 completata <!-- .element: class="fragment" data-fragment-index="1" -->
 * Helper per la migrazione dei plugins da Python 2 a 3 <!-- .element: class="fragment" data-fragment-index="2" -->
 * Ristrutturazione delle proprietà dei layer: codice modulare <!-- .element: class="fragment" data-fragment-index="3" -->
-* *Task manager* per la gestione dei processi lunghi <!-- .element: class="fragment" data-fragment-index="4" -->
+* Task manager per la gestione dei processi lunghi <!-- .element: class="fragment" data-fragment-index="4" -->
 
 ---?image=assets/taskmanager.png&size=contain
 
@@ -55,14 +55,14 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 ## Cosa è stato fatto (2)
 
-- [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82) |
-- [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37) |
+- [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82) <!-- .element: class="fragment" data-fragment-index="1" -->
+- [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37) <!-- .element: class="fragment" data-fragment-index="2" -->
 
-    - chiara separazione fra la gestione dei campi e i moduli |
+    - chiara separazione fra la gestione dei campi e i moduli <!-- .element: class="fragment" data-fragment-index="3" -->
 
-- [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74) |
-- [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69) |
-- [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)|
+- [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74) <!-- .element: class="fragment" data-fragment-index="4" -->
+- [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69) <!-- .element: class="fragment" data-fragment-index="5" -->
+- [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)<!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---?image=assets/multimappe.png&size=contain
 
