@@ -43,6 +43,12 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 * [Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82)
 * [Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)
+* [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37)
+
+    * chiara separazione fra la gestione dei campi e i moduli
+
+* [Ristrutturazione di QGIS server](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/74)
+* [Strumento vertici migliorato](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/69)
 
 ---?image=assets/multimappe.png&size=contain
 
@@ -50,8 +56,8 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 
 ## Cosa è stato fatto (2)
 
-* <span style="color:gray">[Profili utente e impostazioni unificate](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/82)</span>
-* <span style="color:gray">[Mappe multiple in un solo progetto](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/70)</span>
+* <span style="color:gray">Profili utente e impostazioni unificate</span>
+* <span style="color:gray">Mappe multiple in un solo progetto</span>
 * [Ridisegno dell'interfaccia utente per campi, widgets e moduli](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/37)
 
     * chiara separazione fra la gestione dei campi e i moduli
