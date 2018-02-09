@@ -24,9 +24,6 @@
 * pulizia codice QGIS3 stesso (*API break*)
 
 
-**Rilascio imminente** 2018-02-23
-
-
 ---
 
 ## Cosa è stato fatto (1)
@@ -198,6 +195,15 @@
 * Sostenere il lavoro degli sviluppatori
 
 ---
+
+## Si ma quando?!
+
+Presto! 
+
+**Rilascio imminente** 2018-02-23 durante HF Madeira
+
+---
+
 
 ## Licenza di questa presentazione
 
