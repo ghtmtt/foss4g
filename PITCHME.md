@@ -63,7 +63,7 @@
 
 ## Cose ancora da fare
 
-* [Ristrutturazione del registro dei layer e della legenda](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/76)
+* [Ristrutturazione del registro dei layer e legenda](https://github.com/qgis/QGIS-Enhancement-Proposals/issues/76)
 
   * aprire >1 progetto simultaneamente
   * migliore gestione dei layers embedded
@@ -133,7 +133,7 @@
 * Analisi
 
     * riproiezione al volo sempre attiva
-    * correzione degli errori topologici durante le analisi
+    * correzione topologia durante le analisi
     * algoritmi per il calcolo dei network
     * vari altri algoritmi
     * plugins (heatmap, zonal stats, ecc.) spostati in Processing
@@ -145,14 +145,12 @@
 
 * Altro
 
-    * gestione più furba della visibilità dei layers nei gruppi
+    * gestione più furba visibilità dei layers nei gruppi
     * nascondi i layer deselezionati
     * [refresh automatico della mappa](https://www.youtube.com/watch?v=TQTfpiyUwXk&feature=youtu.be)
     * [refresh più veloce per progetti con etichette](https://github.com/qgis/QGIS/pull/4110)
     * miglioramenti nella gestione dei moduli
-
     * constraints, autocompletamento, ecc.
-
     * editing diretto dei raster
 
 ---
@@ -182,7 +180,7 @@
 
     * le API cambieranno ancora, in modo incrementale
 
-* > 80 plugin disponibili (nuovi o *portati*)
+* già >80 plugin disponibili (nuovi o *portati*)
 
 ---
 
