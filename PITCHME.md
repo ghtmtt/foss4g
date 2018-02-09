@@ -230,8 +230,6 @@ Presto!
 Creative Commons
 Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
-.. image:: images_mg/1000px-cc-by-sa_icon-svg.png
-   :width: 200 px
-   :align: center
+![](https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg)
 
 * More info: http://creativecommons.org/licenses/by-sa/3.0/
