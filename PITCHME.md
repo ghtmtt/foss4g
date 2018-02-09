@@ -95,8 +95,6 @@ FOSS4G-IT-2018 Roma, 21/02/2018
     * supporto mappe 3D in layout di stampa
     * supporto per animazioni stile *telecamera*
 
-* tante altre cose ancora... |
-
 ---
 
 ## Chi sta pagando per tutto questo?
