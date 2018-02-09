@@ -77,7 +77,7 @@ FOSS4G-IT-2018 Roma, 21/02/2018
 * [Documentazione algoritmi Processing](http://blog.qgis.org/2017/04/30/qgis-grant-programme-2-results/)
 * molte altri miglioramenti *nascosti*
 
----?image=assets/multimappe.png&size=contain
+---?image=assets/processing_help.png&size=contain
 
 ---
 
